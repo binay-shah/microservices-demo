@@ -13,19 +13,173 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>microservices-demo</name>
 	<description>Microservices Demo project for Spring Boot</description>
+	<modules>
+		<module>twitter-to-kafka-service</module>
+		<module>app-config-data</module>
+		<module>kafka</module>
+		<module>common-config</module>
+        <module>config-server</module>
+    </modules>
 	<packaging>pom</packaging>
 	<properties>
 		<java.version>21</java.version>
 		<spring-boot.version>3.2.2</spring-boot.version>
 		<maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
+		<lombok.version>1.18.30</lombok.version>
+		<twitter4j.version>4.0.7</twitter4j.version>
+		<httpclient.version>4.5.14</httpclient.version>
+		<json.version>20230618</json.version>
+		<avro.version>1.11.3</avro.version>
+		<spring-kafka.version>3.1.1</spring-kafka.version>
+		<spring-retry.version>2.0.5</spring-retry.version>
+		<kafka-avro-serializer.version>5.3.0</kafka-avro-serializer.version>
+		<spring-cloud.version>2023.0.0</spring-cloud.version>
 	</properties>
+	<repositories>
+		<repository>
+			<id>central</id>
+			<name>Central Repository</name>
+			<url>https://repo.maven.apache.org/maven2</url>
+		</repository>
+		<repository>
+			<id>Redhat EA</id>
+			<url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+		</repository>
+	</repositories>
 	<dependencyManagement>
 		<dependencies>
+		<!-- Local -->
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>app-config-data</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>common-config</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>kafka-model</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>kafka-admin</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.microservices.demo</groupId>
+				<artifactId>kafka-producer</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter</artifactId>
 				<version>${spring-boot.version}</version>
 			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-security</artifactId>
+				<version>${spring-boot.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-webflux</artifactId>
+				<version>${spring-boot.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+
+			<!-- https://mvnrepository.com/artifact/org.springframework.retry/spring-retry -->
+			<dependency>
+				<groupId>org.springframework.retry</groupId>
+				<artifactId>spring-retry</artifactId>
+				<version>${spring-retry.version}</version>
+			</dependency>
+
+
+			<!-- https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka -->
+			<dependency>
+				<groupId>org.springframework.kafka</groupId>
+				<artifactId>spring-kafka</artifactId>
+				<version>${spring-kafka.version}</version>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/io.confluent/kafka-avro-serializer -->
+			<dependency>
+				<groupId>io.confluent</groupId>
+				<artifactId>kafka-avro-serializer</artifactId>
+				<version>${kafka-avro-serializer.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.slf4j</groupId>
+						<artifactId>slf4j-log4j12</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>log4j</groupId>
+						<artifactId>log4j</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.swagger</groupId>
+						<artifactId>swagger-annotations</artifactId>
+					</exclusion>
+					<exclusion>
+						<groupId>io.swagger</groupId>
+						<artifactId>swagger-core</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+
+
+
+			<!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-stream -->
+			<dependency>
+				<groupId>org.twitter4j</groupId>
+				<artifactId>twitter4j-stream</artifactId>
+				<version>${twitter4j.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient</artifactId>
+				<version>${httpclient.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.json</groupId>
+				<artifactId>json</artifactId>
+				<version>${json.version}</version>
+			</dependency>
+
+
+			<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>${lombok.version}</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<!-- https://mvnrepository.com/artifact/org.apache.avro/avro -->
+			<dependency>
+				<groupId>org.apache.avro</groupId>
+				<artifactId>avro</artifactId>
+				<version>${avro.version}</version>
+			</dependency>
+
 
 			<dependency>
 				<groupId>org.springframework.boot</groupId>

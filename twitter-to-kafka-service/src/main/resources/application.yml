@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: twitter-to-kafka-service
+  profiles:
+    active: twitter_to_kafka
+  config:
+    import: 'configserver:'
+  cloud:
+    config:
+      name: twitter-to-kafka-service,config-client
+  security:
+    user:
+      name: spring_cloud_user
+      password: springCloud_Pwd!
+
+
+
+
