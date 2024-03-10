@@ -13,7 +13,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/binay-shah/spring-cloud-config-server-repository
+          uri: https://github.com/binay-shah/spring-cloud-config-server-repository.git
           default-label: main
           username: binay-shah
           password: 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

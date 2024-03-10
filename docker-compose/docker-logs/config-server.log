@@ -1,272 +1,617 @@
-2024-03-03 07:46:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 07:46:29 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 07:46:29 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 07:46:38 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 07:46:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 07:46:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 07:46:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 07:46:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 07:46:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 07:46:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10366 ms
-2024-03-03 07:46:45 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c075e9d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47044f7d, org.springframework.security.web.context.SecurityContextHolderFilter@357c9bd9, org.springframework.security.web.header.HeaderWriterFilter@217dc48e, org.springframework.web.filter.CorsFilter@7b14c61, org.springframework.security.web.authentication.logout.LogoutFilter@43a4a9e5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f8a9454, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d0290d8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32507479, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8fcc534, org.springframework.security.web.access.ExceptionTranslationFilter@64021427, org.springframework.security.web.access.intercept.AuthorizationFilter@5c313224]
-2024-03-03 07:47:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 07:47:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 07:47:02 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 37.146 seconds (process running for 44.905)
-2024-03-03 07:53:20 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 07:53:21 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 07:53:21 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 07:53:30 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 07:53:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 07:53:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10692 ms
-2024-03-03 07:56:51 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 07:56:53 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 07:56:53 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 07:57:04 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 07:57:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 07:57:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 07:57:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 07:57:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 07:57:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 07:57:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12299 ms
-2024-03-03 07:57:11 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3b4086c1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58aa1d72, org.springframework.security.web.context.SecurityContextHolderFilter@6a98f353, org.springframework.security.web.header.HeaderWriterFilter@2dd63e3, org.springframework.web.filter.CorsFilter@33d7765a, org.springframework.security.web.authentication.logout.LogoutFilter@14b275bd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58a765ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e00bfe2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4702e7a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69ed5ea2, org.springframework.security.web.access.ExceptionTranslationFilter@4ae2e781, org.springframework.security.web.access.intercept.AuthorizationFilter@5ec6fede]
-2024-03-03 07:57:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 07:57:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 07:57:30 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 44.08 seconds (process running for 54.216)
-2024-03-03 08:02:02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 08:02:03 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 08:02:04 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 08:02:14 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 08:02:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 08:02:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:02:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 08:02:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 08:02:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 08:02:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12199 ms
-2024-03-03 08:02:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1f129467, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@646cd766, org.springframework.security.web.context.SecurityContextHolderFilter@3a3b10f4, org.springframework.security.web.header.HeaderWriterFilter@13cc0b90, org.springframework.web.filter.CorsFilter@57151b3a, org.springframework.security.web.authentication.logout.LogoutFilter@7f8a9454, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3c28e5b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@525647f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42fc4ac4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26457986, org.springframework.security.web.access.ExceptionTranslationFilter@5d9618f2, org.springframework.security.web.access.intercept.AuthorizationFilter@58aa1d72]
-2024-03-03 08:02:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:02:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 08:02:40 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 42.755 seconds (process running for 53.281)
-2024-03-03 08:15:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 08:15:42 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 08:15:42 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 08:15:51 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 08:15:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 08:15:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:15:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 08:15:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 08:15:54 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 08:15:54 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10754 ms
-2024-03-03 08:15:59 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5eed6dfb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5600a5da, org.springframework.security.web.context.SecurityContextHolderFilter@73bb1337, org.springframework.security.web.header.HeaderWriterFilter@1e00bfe2, org.springframework.web.filter.CorsFilter@551be9f6, org.springframework.security.web.authentication.logout.LogoutFilter@1e1e837d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33d7765a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3830b06c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e28d779, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@269222ae, org.springframework.security.web.access.ExceptionTranslationFilter@6a98f353, org.springframework.security.web.access.intercept.AuthorizationFilter@6f85ee02]
-2024-03-03 08:16:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:16:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 08:16:17 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 42.909 seconds (process running for 54.139)
-2024-03-03 08:22:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 08:22:45 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 08:22:45 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 08:22:56 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 08:22:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 08:22:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:22:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 08:22:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 08:22:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 08:22:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12322 ms
-2024-03-03 08:23:03 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5eed6dfb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5600a5da, org.springframework.security.web.context.SecurityContextHolderFilter@73bb1337, org.springframework.security.web.header.HeaderWriterFilter@1e00bfe2, org.springframework.web.filter.CorsFilter@551be9f6, org.springframework.security.web.authentication.logout.LogoutFilter@1e1e837d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33d7765a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3830b06c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e28d779, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@269222ae, org.springframework.security.web.access.ExceptionTranslationFilter@6a98f353, org.springframework.security.web.access.intercept.AuthorizationFilter@6f85ee02]
-2024-03-03 08:23:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:23:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 08:23:21 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 43.24 seconds (process running for 53.462)
-2024-03-03 08:35:13 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 08:35:14 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 08:35:14 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 08:35:24 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 08:35:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 08:35:26 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:35:26 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 08:35:26 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 08:35:27 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 08:35:27 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11650 ms
-2024-03-03 08:35:31 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e599100, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b435211, org.springframework.security.web.context.SecurityContextHolderFilter@632383b9, org.springframework.security.web.header.HeaderWriterFilter@7aea704c, org.springframework.web.filter.CorsFilter@361cd35c, org.springframework.security.web.authentication.logout.LogoutFilter@11df2829, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47044f7d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@339f3a55, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dd63e3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58a765ce, org.springframework.security.web.access.ExceptionTranslationFilter@296edc75, org.springframework.security.web.access.intercept.AuthorizationFilter@8840c98]
-2024-03-03 08:35:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:35:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 08:35:49 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 39.481 seconds (process running for 48.967)
-2024-03-03 08:38:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 08:38:44 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 08:38:44 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 08:38:54 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 08:38:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 08:38:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:38:56 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 08:38:56 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 08:38:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 08:38:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11100 ms
-2024-03-03 08:39:01 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5eed6dfb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5600a5da, org.springframework.security.web.context.SecurityContextHolderFilter@73bb1337, org.springframework.security.web.header.HeaderWriterFilter@1e00bfe2, org.springframework.web.filter.CorsFilter@551be9f6, org.springframework.security.web.authentication.logout.LogoutFilter@1e1e837d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33d7765a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3830b06c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e28d779, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@269222ae, org.springframework.security.web.access.ExceptionTranslationFilter@6a98f353, org.springframework.security.web.access.intercept.AuthorizationFilter@6f85ee02]
-2024-03-03 08:39:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 08:39:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 08:39:19 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 41.348 seconds (process running for 52.305)
-2024-03-03 09:11:02 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 09:11:04 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 09:11:04 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 09:11:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 09:11:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 09:11:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:11:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 09:11:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 09:11:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 09:11:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10851 ms
-2024-03-03 09:11:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69ed5ea2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56a4abd0, org.springframework.security.web.context.SecurityContextHolderFilter@4702e7a5, org.springframework.security.web.header.HeaderWriterFilter@6a98f353, org.springframework.web.filter.CorsFilter@5eed6dfb, org.springframework.security.web.authentication.logout.LogoutFilter@5b29ab61, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3b4086c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73bb1337, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@685f5d0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5600a5da, org.springframework.security.web.access.ExceptionTranslationFilter@7d1c164a, org.springframework.security.web.access.intercept.AuthorizationFilter@1653b84e]
-2024-03-03 09:11:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:11:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 09:11:46 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 49.727 seconds (process running for 60.167)
-2024-03-03 09:21:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 09:21:40 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 09:21:40 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 09:21:51 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 09:21:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 09:21:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:21:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 09:21:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 09:21:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 09:21:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11935 ms
-2024-03-03 09:21:58 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46a123e4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44bc2449, org.springframework.security.web.context.SecurityContextHolderFilter@5d9618f2, org.springframework.security.web.header.HeaderWriterFilter@784d9bc, org.springframework.web.filter.CorsFilter@3c28e5b6, org.springframework.security.web.authentication.logout.LogoutFilter@437c4b25, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40d848f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13cc0b90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58687fb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7558c24b, org.springframework.security.web.access.ExceptionTranslationFilter@3e28d779, org.springframework.security.web.access.intercept.AuthorizationFilter@361cd35c]
-2024-03-03 09:22:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:22:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 09:22:16 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 42.661 seconds (process running for 52.973)
-2024-03-03 09:23:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 09:23:58 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 09:23:58 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 09:24:07 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 09:24:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 09:24:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:24:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 09:24:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 09:24:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 09:24:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10674 ms
-2024-03-03 09:24:13 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58a765ce, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a642e4b, org.springframework.security.web.context.SecurityContextHolderFilter@2dd63e3, org.springframework.security.web.header.HeaderWriterFilter@632383b9, org.springframework.web.filter.CorsFilter@6b162ecc, org.springframework.security.web.authentication.logout.LogoutFilter@6af609ea, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5e599100, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@209f3887, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a98f353, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b4086c1, org.springframework.security.web.access.ExceptionTranslationFilter@6d0290d8, org.springframework.security.web.access.intercept.AuthorizationFilter@527a8665]
-2024-03-03 09:24:34 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:24:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 09:24:34 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 43.816 seconds (process running for 54.064)
-2024-03-03 09:55:54 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 09:55:55 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 09:55:55 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 09:56:05 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 09:56:07 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 09:56:07 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:56:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 09:56:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 09:56:07 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 09:56:07 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11241 ms
-2024-03-03 09:56:12 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6b162ecc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b4086c1, org.springframework.security.web.context.SecurityContextHolderFilter@209f3887, org.springframework.security.web.header.HeaderWriterFilter@339f3a55, org.springframework.web.filter.CorsFilter@58aa1d72, org.springframework.security.web.authentication.logout.LogoutFilter@39e53bef, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@361cd35c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b35798, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e00bfe2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33d7765a, org.springframework.security.web.access.ExceptionTranslationFilter@632383b9, org.springframework.security.web.access.intercept.AuthorizationFilter@437c4b25]
-2024-03-03 09:56:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:56:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 09:56:31 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 42.159 seconds (process running for 51.931)
-2024-03-03 09:57:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 09:57:17 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 09:57:17 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 09:57:26 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 09:57:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 09:57:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:57:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 09:57:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 09:57:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 09:57:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10860 ms
-2024-03-03 09:57:33 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7b14c61, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8fcc534, org.springframework.security.web.context.SecurityContextHolderFilter@6d0290d8, org.springframework.security.web.header.HeaderWriterFilter@296edc75, org.springframework.web.filter.CorsFilter@5e599100, org.springframework.security.web.authentication.logout.LogoutFilter@35145874, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@679d0be8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@632383b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ae2e781, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b435211, org.springframework.security.web.access.ExceptionTranslationFilter@217dc48e, org.springframework.security.web.access.intercept.AuthorizationFilter@4b957db0]
-2024-03-03 09:57:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 09:57:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 09:57:52 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 42.151 seconds (process running for 52.93)
-2024-03-03 10:14:19 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 10:14:21 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 10:14:21 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 10:14:30 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 10:14:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 10:14:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 10:14:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 10:14:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 10:14:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 10:14:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 10928 ms
-2024-03-03 10:14:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c075e9d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47044f7d, org.springframework.security.web.context.SecurityContextHolderFilter@357c9bd9, org.springframework.security.web.header.HeaderWriterFilter@217dc48e, org.springframework.web.filter.CorsFilter@7b14c61, org.springframework.security.web.authentication.logout.LogoutFilter@43a4a9e5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f8a9454, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d0290d8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32507479, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8fcc534, org.springframework.security.web.access.ExceptionTranslationFilter@64021427, org.springframework.security.web.access.intercept.AuthorizationFilter@5c313224]
-2024-03-03 10:14:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 10:14:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 10:14:55 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 42.117 seconds (process running for 52.018)
-2024-03-03 10:23:05 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 10:23:07 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 10:23:07 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 10:23:18 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 10:23:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 10:23:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 10:23:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 10:23:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 10:23:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 10:23:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12004 ms
-2024-03-03 10:23:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33d7765a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69ed5ea2, org.springframework.security.web.context.SecurityContextHolderFilter@1e00bfe2, org.springframework.security.web.header.HeaderWriterFilter@209f3887, org.springframework.web.filter.CorsFilter@56a4abd0, org.springframework.security.web.authentication.logout.LogoutFilter@4b03cbad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6b162ecc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a2d867d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73bb1337, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eed6dfb, org.springframework.security.web.access.ExceptionTranslationFilter@2dd63e3, org.springframework.security.web.access.intercept.AuthorizationFilter@3757e8e2]
-2024-03-03 10:23:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 10:23:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 10:23:43 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 42.916 seconds (process running for 53.485)
-2024-03-03 10:31:01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 10:31:03 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 10:31:03 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 10:31:13 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 10:31:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 10:31:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 10:31:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 10:31:16 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 10:31:16 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 10:31:16 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11865 ms
-2024-03-03 10:31:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33d7765a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69ed5ea2, org.springframework.security.web.context.SecurityContextHolderFilter@1e00bfe2, org.springframework.security.web.header.HeaderWriterFilter@209f3887, org.springframework.web.filter.CorsFilter@56a4abd0, org.springframework.security.web.authentication.logout.LogoutFilter@4b03cbad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6b162ecc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a2d867d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73bb1337, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eed6dfb, org.springframework.security.web.access.ExceptionTranslationFilter@2dd63e3, org.springframework.security.web.access.intercept.AuthorizationFilter@3757e8e2]
-2024-03-03 10:31:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 10:31:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 10:31:38 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 41.361 seconds (process running for 52.982)
-2024-03-03 10:36:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 10:36:20 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 10:36:20 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 10:36:30 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 10:36:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 10:36:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 10:36:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 10:36:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 10:36:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 10:36:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11962 ms
-2024-03-03 10:36:38 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5eed6dfb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5600a5da, org.springframework.security.web.context.SecurityContextHolderFilter@73bb1337, org.springframework.security.web.header.HeaderWriterFilter@1e00bfe2, org.springframework.web.filter.CorsFilter@551be9f6, org.springframework.security.web.authentication.logout.LogoutFilter@1e1e837d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33d7765a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3830b06c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e28d779, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@269222ae, org.springframework.security.web.access.ExceptionTranslationFilter@6a98f353, org.springframework.security.web.access.intercept.AuthorizationFilter@6f85ee02]
-2024-03-03 10:36:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 10:36:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 10:36:55 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 42.604 seconds (process running for 53.868)
-2024-03-03 11:16:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 11:16:46 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 11:16:46 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 11:16:56 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 11:16:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 11:16:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 11:16:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 11:16:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 11:16:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 11:16:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11115 ms
-2024-03-03 11:17:03 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e599100, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b435211, org.springframework.security.web.context.SecurityContextHolderFilter@632383b9, org.springframework.security.web.header.HeaderWriterFilter@7aea704c, org.springframework.web.filter.CorsFilter@361cd35c, org.springframework.security.web.authentication.logout.LogoutFilter@11df2829, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47044f7d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@339f3a55, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2dd63e3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58a765ce, org.springframework.security.web.access.ExceptionTranslationFilter@296edc75, org.springframework.security.web.access.intercept.AuthorizationFilter@8840c98]
-2024-03-03 11:17:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 11:17:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 11:17:21 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 39.303 seconds (process running for 44.641)
-2024-03-03 11:30:11 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 11:30:12 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 11:30:12 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 11:30:22 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 11:30:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 11:30:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 11:30:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 11:30:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 11:30:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 11:30:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11082 ms
-2024-03-03 11:30:29 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46a123e4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44bc2449, org.springframework.security.web.context.SecurityContextHolderFilter@5d9618f2, org.springframework.security.web.header.HeaderWriterFilter@784d9bc, org.springframework.web.filter.CorsFilter@3c28e5b6, org.springframework.security.web.authentication.logout.LogoutFilter@437c4b25, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@40d848f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13cc0b90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58687fb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7558c24b, org.springframework.security.web.access.ExceptionTranslationFilter@3e28d779, org.springframework.security.web.access.intercept.AuthorizationFilter@361cd35c]
-2024-03-03 11:30:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 11:30:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 11:30:47 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 41.158 seconds (process running for 51.77)
-2024-03-03 11:56:34 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-03-03 11:56:35 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
-2024-03-03 11:56:35 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
-2024-03-03 11:56:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
-2024-03-03 11:56:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
-2024-03-03 11:56:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
-2024-03-03 11:56:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-03-03 11:56:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-03-03 11:56:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-03-03 11:56:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11351 ms
-2024-03-03 11:56:52 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3b4086c1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58aa1d72, org.springframework.security.web.context.SecurityContextHolderFilter@6a98f353, org.springframework.security.web.header.HeaderWriterFilter@2dd63e3, org.springframework.web.filter.CorsFilter@33d7765a, org.springframework.security.web.authentication.logout.LogoutFilter@14b275bd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58a765ce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e00bfe2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4702e7a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69ed5ea2, org.springframework.security.web.access.ExceptionTranslationFilter@4ae2e781, org.springframework.security.web.access.intercept.AuthorizationFilter@5ec6fede]
-2024-03-03 11:57:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
-2024-03-03 11:57:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
-2024-03-03 11:57:10 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 41.845 seconds (process running for 51.87)
+2024-03-10 02:30:09 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-10 02:30:12 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2024-03-10 02:30:12 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-03-10 02:30:27 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
+2024-03-10 02:30:30 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-03-10 02:30:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-03-10 02:30:30 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-10 02:30:30 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-10 02:30:30 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-10 02:30:30 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 15999 ms
+2024-03-10 02:30:35 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@44bc2449, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c28e5b6, org.springframework.security.web.context.SecurityContextHolderFilter@7c7e73c5, org.springframework.security.web.header.HeaderWriterFilter@3a0aaaf0, org.springframework.web.filter.CorsFilter@7558c24b, org.springframework.security.web.authentication.logout.LogoutFilter@5ec6fede, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4a864d4d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58687fb7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3554bdc0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a296107, org.springframework.security.web.access.ExceptionTranslationFilter@15214920, org.springframework.security.web.access.intercept.AuthorizationFilter@58a765ce]
+2024-03-10 02:30:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-03-10 02:30:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-03-10 02:30:52 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 54.727 seconds (process running for 69.818)
+2024-03-10 02:30:53 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10 02:30:53 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-10 02:30:53 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2024-03-10 02:31:10 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:31:13 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-twitter_to_kafka.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:31:13 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:31:28 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:31:30 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:31:30 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:45:16 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:45:19 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:45:19 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:48:58 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:49:01 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:49:01 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:50:29 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:50:33 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:50:33 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:52:02 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:52:04 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 02:52:04 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:00:58 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:01:01 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:01:01 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:01:47 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:01:50 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:01:50 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:18:23 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:18:26 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:18:26 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:19:35 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:19:38 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 03:19:38 [http-nio-8888-exec-10] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:19:19 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:19:22 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:19:22 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:21:21 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Fetched for remote main and found 1 updates
+2024-03-10 04:21:22 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:21:24 [http-nio-8888-exec-6] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:21:28 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:21:28 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:21:30 [http-nio-8888-exec-8] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:21:35 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 04:21:35 [http-nio-8888-exec-9] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-3714049554778599642/config-client.yml]' via location 'file:/tmp/config-repo-3714049554778599642/'
+2024-03-10 05:22:22 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-10 05:22:25 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2024-03-10 05:22:25 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-03-10 05:22:36 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
+2024-03-10 05:22:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-03-10 05:22:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-03-10 05:22:38 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-10 05:22:38 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-10 05:22:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-10 05:22:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12353 ms
+2024-03-10 05:22:44 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@69ed5ea2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56a4abd0, org.springframework.security.web.context.SecurityContextHolderFilter@4702e7a5, org.springframework.security.web.header.HeaderWriterFilter@6a98f353, org.springframework.web.filter.CorsFilter@5eed6dfb, org.springframework.security.web.authentication.logout.LogoutFilter@5b29ab61, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3b4086c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73bb1337, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@685f5d0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5600a5da, org.springframework.security.web.access.ExceptionTranslationFilter@7d1c164a, org.springframework.security.web.access.intercept.AuthorizationFilter@1653b84e]
+2024-03-10 05:23:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-03-10 05:23:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-03-10 05:23:03 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 53.883 seconds (process running for 72.899)
+2024-03-10 05:23:05 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10 05:23:05 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-10 05:23:05 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-03-10 05:23:23 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-14292037150677937170/config-client.yml]' via location 'file:/tmp/config-repo-14292037150677937170/'
+2024-03-10 05:23:27 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-14292037150677937170/config-client-twitter_to_kafka.yml]' via location 'file:/tmp/config-repo-14292037150677937170/'
+2024-03-10 05:23:27 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-14292037150677937170/config-client.yml]' via location 'file:/tmp/config-repo-14292037150677937170/'
+2024-03-10 05:25:55 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-10 05:25:56 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2024-03-10 05:25:56 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-03-10 05:26:07 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
+2024-03-10 05:26:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-03-10 05:26:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-03-10 05:26:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-10 05:26:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-10 05:26:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-10 05:26:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 12416 ms
+2024-03-10 05:26:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33d7765a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69ed5ea2, org.springframework.security.web.context.SecurityContextHolderFilter@1e00bfe2, org.springframework.security.web.header.HeaderWriterFilter@209f3887, org.springframework.web.filter.CorsFilter@56a4abd0, org.springframework.security.web.authentication.logout.LogoutFilter@4b03cbad, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6b162ecc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a2d867d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73bb1337, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eed6dfb, org.springframework.security.web.access.ExceptionTranslationFilter@2dd63e3, org.springframework.security.web.access.intercept.AuthorizationFilter@3757e8e2]
+2024-03-10 05:26:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-03-10 05:26:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-03-10 05:26:31 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 54.173 seconds (process running for 77.195)
+2024-03-10 05:26:32 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10 05:26:32 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-10 05:26:32 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2024-03-10 05:26:48 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-13943205440408228021/config-client.yml]' via location 'file:/tmp/config-repo-13943205440408228021/'
+2024-03-10 05:26:51 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-13943205440408228021/config-client-twitter_to_kafka.yml]' via location 'file:/tmp/config-repo-13943205440408228021/'
+2024-03-10 05:26:51 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-13943205440408228021/config-client.yml]' via location 'file:/tmp/config-repo-13943205440408228021/'
+2024-03-10 05:29:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-03-10 05:29:05 [main] INFO  c.m.demo.config.server.ConfigServer - Starting ConfigServer v0.0.1-SNAPSHOT using Java 21.0.2 with PID 1 (/workspace/BOOT-INF/classes started by cnb in /workspace)
+2024-03-10 05:29:05 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2024-03-10 05:29:17 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=7b372d01-c8f2-376f-8f36-30e28e2f9671
+2024-03-10 05:29:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8888 (http)
+2024-03-10 05:29:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2024-03-10 05:29:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-10 05:29:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-10 05:29:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-10 05:29:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 14086 ms
+2024-03-10 05:29:25 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5eed6dfb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5600a5da, org.springframework.security.web.context.SecurityContextHolderFilter@73bb1337, org.springframework.security.web.header.HeaderWriterFilter@1e00bfe2, org.springframework.web.filter.CorsFilter@551be9f6, org.springframework.security.web.authentication.logout.LogoutFilter@1e1e837d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@33d7765a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3830b06c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e28d779, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@269222ae, org.springframework.security.web.access.ExceptionTranslationFilter@6a98f353, org.springframework.security.web.access.intercept.AuthorizationFilter@6f85ee02]
+2024-03-10 05:29:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2024-03-10 05:29:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8888 (http) with context path ''
+2024-03-10 05:29:42 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 52.941 seconds (process running for 74.466)
+2024-03-10 05:29:43 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-10 05:29:43 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-10 05:29:43 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2024-03-10 05:30:00 [http-nio-8888-exec-2] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-16462852191358975302/config-client.yml]' via location 'file:/tmp/config-repo-16462852191358975302/'
+2024-03-10 05:30:05 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-16462852191358975302/config-client-twitter_to_kafka.yml]' via location 'file:/tmp/config-repo-16462852191358975302/'
+2024-03-10 05:30:05 [http-nio-8888-exec-3] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-16462852191358975302/config-client.yml]' via location 'file:/tmp/config-repo-16462852191358975302/'
+2024-03-10 05:30:42 [http-nio-8888-exec-4] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-16462852191358975302/config-client.yml]' via location 'file:/tmp/config-repo-16462852191358975302/'
+2024-03-10 05:30:45 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-16462852191358975302/config-client-kafka_to_elastic.yml]' via location 'file:/tmp/config-repo-16462852191358975302/'
+2024-03-10 05:30:45 [http-nio-8888-exec-5] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [/tmp/config-repo-16462852191358975302/config-client.yml]' via location 'file:/tmp/config-repo-16462852191358975302/'
+2024-03-10 05:30:46 [main] INFO  c.m.d.k.t.e.s.KafkaToElasticServiceApplication - Starting KafkaToElasticServiceApplication v0.0.1-SNAPSHOT using Java 21.0.2 with PID 955 (/workspace/BOOT-INF/classes started by root in /workspace)
+2024-03-10 05:30:46 [main] INFO  c.m.d.k.t.e.s.KafkaToElasticServiceApplication - The following 1 profile is active: "kafka_to_elastic"
+2024-03-10 05:30:46 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Fetching config from server at : http://config-server:8888
+2024-03-10 05:30:46 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Located environment: name=kafka-to-elastic-service,config-client, profiles=[default], label=null, version=b442bf712992aca5fadd36a47de2e3e3aa566f07, state=null
+2024-03-10 05:30:47 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Fetching config from server at : http://config-server:8888
+2024-03-10 05:30:47 [main] INFO  o.s.c.c.c.ConfigServerConfigDataLoader - Located environment: name=kafka-to-elastic-service,config-client, profiles=[kafka_to_elastic], label=null, version=b442bf712992aca5fadd36a47de2e3e3aa566f07, state=null
+2024-03-10 05:30:50 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2024-03-10 05:30:51 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 731 ms. Found 1 Elasticsearch repository interface.
+2024-03-10 05:30:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2024-03-10 05:30:53 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2024-03-10 05:30:55 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b2a0ec20-be7a-35b7-8049-0b9c6e123a27
+2024-03-10 05:30:57 [main] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-03-10 05:30:59 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.1
+2024-03-10 05:30:59 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 5e3c2b738d253ff5
+2024-03-10 05:30:59 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1710048659394
+2024-03-10 05:31:06 [main] INFO  o.s.b.a.s.r.ReactiveUserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 4dcafecd-f20e-4d78-a7f4-87cc95697db9
+
+2024-03-10 05:31:09 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8182
+2024-03-10 05:31:09 [main] INFO  c.m.d.k.t.e.s.KafkaToElasticServiceApplication - Started KafkaToElasticServiceApplication in 34.661 seconds (process running for 41.132)
+2024-03-10 05:31:09 [main] INFO  c.m.d.admin.client.KafkaAdminClient - Reading kafka topic [twitter-topic], attempt 0
+2024-03-10 05:31:09 [main] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Topics with name twitter-topic is ready for operations!
+2024-03-10 05:31:09 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-twitter-topic-consumer-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = twitter-topic-consumer
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class io.confluent.kafka.serializers.KafkaAvroDeserializer
+
+2024-03-10 05:31:09 [main] INFO  i.c.k.s.KafkaAvroDeserializerConfig - KafkaAvroDeserializerConfig values: 
+	bearer.auth.token = [hidden]
+	schema.registry.url = [http://schema-registry:8081]
+	basic.auth.user.info = [hidden]
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	specific.avro.reader = true
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2024-03-10 05:31:09 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.1
+2024-03-10 05:31:09 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 5e3c2b738d253ff5
+2024-03-10 05:31:09 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1710048669781
+2024-03-10 05:31:09 [main] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Subscribed to topic(s): twitter-topic
+2024-03-10 05:31:09 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-twitter-topic-consumer-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = twitter-topic-consumer
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class io.confluent.kafka.serializers.KafkaAvroDeserializer
+
+2024-03-10 05:31:09 [main] INFO  i.c.k.s.KafkaAvroDeserializerConfig - KafkaAvroDeserializerConfig values: 
+	bearer.auth.token = [hidden]
+	schema.registry.url = [http://schema-registry:8081]
+	basic.auth.user.info = [hidden]
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	specific.avro.reader = true
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2024-03-10 05:31:09 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.1
+2024-03-10 05:31:09 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 5e3c2b738d253ff5
+2024-03-10 05:31:09 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1710048669935
+2024-03-10 05:31:09 [main] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Subscribed to topic(s): twitter-topic
+2024-03-10 05:31:09 [main] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [kafka-broker-1:9092, kafka-broker-2:9092, kafka-broker-3:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-twitter-topic-consumer-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = twitter-topic-consumer
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.LongDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class io.confluent.kafka.serializers.KafkaAvroDeserializer
+
+2024-03-10 05:31:09 [main] INFO  i.c.k.s.KafkaAvroDeserializerConfig - KafkaAvroDeserializerConfig values: 
+	bearer.auth.token = [hidden]
+	schema.registry.url = [http://schema-registry:8081]
+	basic.auth.user.info = [hidden]
+	auto.register.schemas = true
+	max.schemas.per.subject = 1000
+	basic.auth.credentials.source = URL
+	schema.registry.basic.auth.user.info = [hidden]
+	bearer.auth.credentials.source = STATIC_TOKEN
+	specific.avro.reader = true
+	value.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+	key.subject.name.strategy = class io.confluent.kafka.serializers.subject.TopicNameStrategy
+
+2024-03-10 05:31:09 [twitter-topic-consumer-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Cluster ID: 5DsdiC74R1Gxzn82LuNZIw
+2024-03-10 05:31:10 [twitter-topic-consumer-1-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Cluster ID: 5DsdiC74R1Gxzn82LuNZIw
+2024-03-10 05:31:10 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Discovered group coordinator kafka-broker-2:9092 (id: 2147483645 rack: null)
+2024-03-10 05:31:10 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Discovered group coordinator kafka-broker-2:9092 (id: 2147483645 rack: null)
+2024-03-10 05:31:10 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] (Re-)joining group
+2024-03-10 05:31:10 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] (Re-)joining group
+2024-03-10 05:31:10 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.1
+2024-03-10 05:31:10 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: 5e3c2b738d253ff5
+2024-03-10 05:31:10 [main] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1710048670047
+2024-03-10 05:31:10 [main] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Subscribed to topic(s): twitter-topic
+2024-03-10 05:31:10 [twitter-topic-consumer-2-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Cluster ID: 5DsdiC74R1Gxzn82LuNZIw
+2024-03-10 05:31:10 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Discovered group coordinator kafka-broker-2:9092 (id: 2147483645 rack: null)
+2024-03-10 05:31:10 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] (Re-)joining group
+2024-03-10 05:31:10 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Request joining group due to: need to re-join with the given member-id: consumer-twitter-topic-consumer-1-a2fceebd-d65b-46bb-a64b-e63601e39202
+2024-03-10 05:31:10 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Request joining group due to: need to re-join with the given member-id: consumer-twitter-topic-consumer-2-c2fc2f38-9a82-46c2-8987-f5d910a306d2
+2024-03-10 05:31:10 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-03-10 05:31:10 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-03-10 05:31:10 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Request joining group due to: need to re-join with the given member-id: consumer-twitter-topic-consumer-3-17fcc099-f58b-456e-9477-5cd63feca716
+2024-03-10 05:31:10 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] (Re-)joining group
+2024-03-10 05:31:10 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-03-10 05:31:10 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] (Re-)joining group
+2024-03-10 05:31:10 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] (Re-)joining group
+2024-03-10 05:31:16 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Successfully joined group with generation Generation{generationId=1, memberId='consumer-twitter-topic-consumer-2-c2fc2f38-9a82-46c2-8987-f5d910a306d2', protocol='range'}
+2024-03-10 05:31:16 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Successfully joined group with generation Generation{generationId=1, memberId='consumer-twitter-topic-consumer-1-a2fceebd-d65b-46bb-a64b-e63601e39202', protocol='range'}
+2024-03-10 05:31:16 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Successfully joined group with generation Generation{generationId=1, memberId='consumer-twitter-topic-consumer-3-17fcc099-f58b-456e-9477-5cd63feca716', protocol='range'}
+2024-03-10 05:31:16 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Finished assignment for group at generation 1: {consumer-twitter-topic-consumer-1-a2fceebd-d65b-46bb-a64b-e63601e39202=Assignment(partitions=[twitter-topic-0]), consumer-twitter-topic-consumer-2-c2fc2f38-9a82-46c2-8987-f5d910a306d2=Assignment(partitions=[twitter-topic-1]), consumer-twitter-topic-consumer-3-17fcc099-f58b-456e-9477-5cd63feca716=Assignment(partitions=[twitter-topic-2])}
+2024-03-10 05:31:16 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Successfully synced group in generation Generation{generationId=1, memberId='consumer-twitter-topic-consumer-1-a2fceebd-d65b-46bb-a64b-e63601e39202', protocol='range'}
+2024-03-10 05:31:16 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Successfully synced group in generation Generation{generationId=1, memberId='consumer-twitter-topic-consumer-3-17fcc099-f58b-456e-9477-5cd63feca716', protocol='range'}
+2024-03-10 05:31:16 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Successfully synced group in generation Generation{generationId=1, memberId='consumer-twitter-topic-consumer-2-c2fc2f38-9a82-46c2-8987-f5d910a306d2', protocol='range'}
+2024-03-10 05:31:16 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Notifying assignor about the new Assignment(partitions=[twitter-topic-0])
+2024-03-10 05:31:16 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Notifying assignor about the new Assignment(partitions=[twitter-topic-2])
+2024-03-10 05:31:16 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Notifying assignor about the new Assignment(partitions=[twitter-topic-1])
+2024-03-10 05:31:17 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Adding newly assigned partitions: twitter-topic-0
+2024-03-10 05:31:17 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Adding newly assigned partitions: twitter-topic-2
+2024-03-10 05:31:17 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Adding newly assigned partitions: twitter-topic-1
+2024-03-10 05:31:17 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Found no committed offset for partition twitter-topic-0
+2024-03-10 05:31:17 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Found no committed offset for partition twitter-topic-1
+2024-03-10 05:31:17 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Found no committed offset for partition twitter-topic-2
+2024-03-10 05:31:17 [twitter-topic-consumer-0-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-twitter-topic-consumer-1, groupId=twitter-topic-consumer] Resetting offset for partition twitter-topic-0 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[kafka-broker-2:9092 (id: 2 rack: null)], epoch=0}}.
+2024-03-10 05:31:17 [twitter-topic-consumer-2-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-twitter-topic-consumer-3, groupId=twitter-topic-consumer] Resetting offset for partition twitter-topic-2 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[kafka-broker-1:9092 (id: 1 rack: null)], epoch=0}}.
+2024-03-10 05:31:17 [twitter-topic-consumer-1-C-1] INFO  o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-twitter-topic-consumer-2, groupId=twitter-topic-consumer] Resetting offset for partition twitter-topic-1 to position FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[kafka-broker-3:9092 (id: 3 rack: null)], epoch=0}}.
+2024-03-10 05:31:17 [twitter-topic-consumer-2-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - twitter-topic-consumer: partitions assigned: [twitter-topic-2]
+2024-03-10 05:31:17 [twitter-topic-consumer-1-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - twitter-topic-consumer: partitions assigned: [twitter-topic-1]
+2024-03-10 05:31:17 [twitter-topic-consumer-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - twitter-topic-consumer: partitions assigned: [twitter-topic-0]
+2024-03-10 05:31:31 [twitter-topic-consumer-0-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 5 of messages received with keys [6814602911562825921, 8555088159392213143, 7302419330985274412, 1445351174940836517, 5574641457222303379], partition [0, 0, 0, 0, 0] and offset [0, 1, 2, 3, 4], sending it to elastic Thread name twitter-topic-consumer-0-C-1
+2024-03-10 05:31:33 [twitter-topic-consumer-0-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [7514258866633137766, 8928458614097546608, 4406146434202001669, 2812657165475332735, 6764887020294116001]
+2024-03-10 05:31:33 [twitter-topic-consumer-0-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 7514258866633137766
+2024-03-10 05:32:21 [twitter-topic-consumer-2-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 4 of messages received with keys [7707390771142064532, 8002634944886878803, 1788523612023282495, 6772353075354598040], partition [2, 2, 2, 2] and offset [0, 1, 2, 3], sending it to elastic Thread name twitter-topic-consumer-2-C-1
+2024-03-10 05:32:21 [twitter-topic-consumer-2-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [5936134768145002579, 1131245387811585739, 3501668467298524479, 2303056396319329306]
+2024-03-10 05:32:21 [twitter-topic-consumer-2-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 5936134768145002579
+2024-03-10 05:32:31 [twitter-topic-consumer-0-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 2 of messages received with keys [4170034207875458000, 3077159996107585868], partition [0, 0] and offset [5, 6], sending it to elastic Thread name twitter-topic-consumer-0-C-1
+2024-03-10 05:32:31 [twitter-topic-consumer-0-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [7769059748555323764, 2054726631952708547]
+2024-03-10 05:32:31 [twitter-topic-consumer-0-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 7769059748555323764
+2024-03-10 05:33:01 [twitter-topic-consumer-1-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 3 of messages received with keys [991850954971172206, 1321249166143465089, 401902440325046870], partition [1, 1, 1] and offset [0, 1, 2], sending it to elastic Thread name twitter-topic-consumer-1-C-1
+2024-03-10 05:33:01 [twitter-topic-consumer-1-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [4209664675732461365, 4653425009859943930, 6316901236719007533]
+2024-03-10 05:33:01 [twitter-topic-consumer-1-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 4209664675732461365
+2024-03-10 05:33:51 [twitter-topic-consumer-0-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 1 of messages received with keys [7002054974988863206], partition [0] and offset [7], sending it to elastic Thread name twitter-topic-consumer-0-C-1
+2024-03-10 05:33:51 [twitter-topic-consumer-0-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [894635427123753947]
+2024-03-10 05:33:51 [twitter-topic-consumer-0-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 894635427123753947
+2024-03-10 05:34:01 [twitter-topic-consumer-2-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 3 of messages received with keys [370807171035908886, 8488572404398264662, 8791055302960761049], partition [2, 2, 2] and offset [4, 5, 6], sending it to elastic Thread name twitter-topic-consumer-2-C-1
+2024-03-10 05:34:01 [twitter-topic-consumer-2-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [1985069372235139955, 5249056178461717691, 4757954329548722873]
+2024-03-10 05:34:01 [twitter-topic-consumer-2-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 1985069372235139955
+2024-03-10 05:34:11 [twitter-topic-consumer-1-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 2 of messages received with keys [4820148578466888695, 7263356932129556938], partition [1, 1] and offset [3, 4], sending it to elastic Thread name twitter-topic-consumer-1-C-1
+2024-03-10 05:34:11 [twitter-topic-consumer-1-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [7457933209860259511, 3918606167630864732]
+2024-03-10 05:34:11 [twitter-topic-consumer-1-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 7457933209860259511
+2024-03-10 05:34:51 [twitter-topic-consumer-0-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 2 of messages received with keys [3229564339297156969, 2942549817983804637], partition [0, 0] and offset [8, 9], sending it to elastic Thread name twitter-topic-consumer-0-C-1
+2024-03-10 05:34:51 [twitter-topic-consumer-0-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [8296864028696357447, 337691224945200792]
+2024-03-10 05:34:51 [twitter-topic-consumer-0-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 8296864028696357447
+2024-03-10 05:35:01 [twitter-topic-consumer-2-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 1 of messages received with keys [8051948020083929700], partition [2] and offset [7], sending it to elastic Thread name twitter-topic-consumer-2-C-1
+2024-03-10 05:35:01 [twitter-topic-consumer-2-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [3366105809147984963]
+2024-03-10 05:35:01 [twitter-topic-consumer-2-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 3366105809147984963
+2024-03-10 05:35:11 [twitter-topic-consumer-1-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - 3 of messages received with keys [5077825659041701637, 2505491899634455538, 7310866098193240715], partition [1, 1, 1] and offset [5, 6, 7], sending it to elastic Thread name twitter-topic-consumer-1-C-1
+2024-03-10 05:35:11 [twitter-topic-consumer-1-C-1] INFO  c.m.d.e.i.c.s.i.TwitterElasticRepositoryIndexClient - Documents indexed successfully with type: com.microservices.demo.elastic.model.index.impl.TwitterIndexModel and ids: [5757696273589714015, 701683928972226734, 1757200267321115729]
+2024-03-10 05:35:11 [twitter-topic-consumer-1-C-1] INFO  c.m.d.k.t.e.s.c.i.TwitterKafkaConsumer - Documents saved to elasticsearch with ids 5757696273589714015
