@@ -1,13 +1,13 @@
 spring:
   application:
-    name: twitter-to-kafka-service
+    name: elastic-query-service
   profiles:
-    active: twitter_to_kafka
+    active: elastic_query
   config:
     import: 'configserver:'
   cloud:
     config:
-      name: twitter-to-kafka-service,config-client
+      name: elastic-query-service,config-client
       username: spring_cloud_user
       password: '{cipher}e543fa85ea86354274c97b8da89a6a2da206af6d18d0206d1bf42aee117b6ee9'
 
