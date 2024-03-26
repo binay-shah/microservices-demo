@@ -1,5 +1,6 @@
 package com.microservices.demo.elastic.query.service.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.Customizer;
@@ -20,6 +21,8 @@ import com.microservices.demo.config.UserConfigData;
 public class WebSecurityConfig {
 
     private final UserConfigData userConfigData;
+    @Value("${security.paths-to-ignore}")
+    private String[] pathsToIgnore;
 
     public WebSecurityConfig(UserConfigData userConfigData) {
         this.userConfigData = userConfigData;

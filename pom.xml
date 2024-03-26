@@ -41,6 +41,7 @@
 		<spring-cloud.version>2023.0.0</spring-cloud.version>
 		<elasticsearch.version>8.12.1</elasticsearch.version>
 		<elasticsearch-rest-high-level-client.version>7.17.18</elasticsearch-rest-high-level-client.version>
+		<springdoc-openapi-ui.version>1.7.0</springdoc-openapi-ui.version>
 	</properties>
 	<repositories>
 		<repository>
@@ -142,6 +143,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-data-elasticsearch</artifactId>
 				<version>${spring-boot.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springdoc</groupId>
+				<artifactId>springdoc-openapi-ui</artifactId>
+				<version>${springdoc-openapi-ui.version}</version>
 			</dependency>
 
 			<!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch -->
